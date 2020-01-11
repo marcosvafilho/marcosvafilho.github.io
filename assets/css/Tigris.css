@@ -6,7 +6,7 @@
 * Version  : 1.0
 * Author   : beingeorge
 * Support  : hello@beingeorge.com
-* 
+*
 ------------------*/
 
 
@@ -20,7 +20,7 @@
 4. Portfolio
 5. Service
 6. Testimonial
-7. Blog	
+7. Blog
 8. Contact and Map
 9. Footer
 10. Scroll to top
@@ -309,7 +309,7 @@ textarea.form-control {
 .btn-custom-2.active {
 	background: #f47a65;
 	color: #fff;
-	box-shadow: 0px 10px 20px rgba(0,0,0,0.1) 
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.1)
 }
 
 .btn-custom-3 {
@@ -613,12 +613,14 @@ textarea.form-control {
 
 .intro {
 	width: 90%;
+	min-height: 300px;
 }
 
 .intro h1 {
 	font-size: 50px;
 	padding: 10px 0 10px;
 	font-weight: 400;
+	margin-bottom: 15px;
 }
 
 .intro h1 span {
@@ -648,10 +650,9 @@ textarea.form-control {
 .intro p {
     font-size: 20px;
     margin: 15px 0 0;
-    display: inline-block;
+    display: inline;
     letter-spacing: 2px;
     font-weight: 400;
-    text-transform: uppercase;
 }
 
 .background {
@@ -667,7 +668,10 @@ textarea.form-control {
 }
 
 .typed-cursor {
-    font-size: 27px;
+    font-size: 16px;
+		color: #f47a65;
+		opacity: 0.5;
+		font-weight: bold;
     display: inline-block;
 }
 
@@ -951,7 +955,7 @@ figure {
 	background: rgba(0,0,0,0.4);
 	bottom: 0;
 	left: 0;
-	opacity: 0; 
+	opacity: 0;
 	padding: 13px;
 	position: absolute;
 	right: 0;
@@ -1654,7 +1658,7 @@ img.mfp-img {
 	}
 
 	.side-image-text {
-		padding: 50px 15px 0; 
+		padding: 50px 15px 0;
 	}
 
 	.mouse-icon {

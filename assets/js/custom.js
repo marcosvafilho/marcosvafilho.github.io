@@ -1,6 +1,6 @@
 (function($){
 
-	"use strict"; 
+	"use strict";
 
 /* ---------------------------------------------- /*
 * Preloader
@@ -95,14 +95,14 @@ $(document).ready( function() {
 new WOW().init();
 
 /* ---------------------------------------------- /*
-* Ham Menu 
+* Ham Menu
 /* ---------------------------------------------- */
 
 $(".hamburger-menu").on('click', function(){
 	$(this).toggleClass("open");
 	$(".menu-wrapper").toggleClass("open");
 	$("body, html").toggleClass("ham-active");
-	
+
 	if($('body').hasClass('ham-active')){
 		$('body, html').css("overflow", "hiddden");
 	} else {
@@ -117,8 +117,8 @@ $(".hamburger-menu").on('click', function(){
 $(".typed").each(function() {
     var $this = $(this);
     $this.typed({
-        strings: $this.attr('data-elements').split(','),
-        typeSpeed: 100,
+        strings: $this.attr('data-elements').split('|'),
+        typeSpeed: 25,
         backDelay: 3000
     });
 });
